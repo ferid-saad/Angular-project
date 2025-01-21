@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { TestComponent } from './test/test.component';
 import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
+import { Page404Component } from './page404/page404.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TestComponent,
     HomeComponent,
-    ProfileComponent
+    ProfileComponent,
+    Page404Component
   ],
   imports: [
     BrowserModule,

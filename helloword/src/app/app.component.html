@@ -2,8 +2,7 @@
 <h1>Hello</h1>
 <router-outlet></router-outlet>
 <h1>{{title}}</h1>
-<h1>{{condition}}</h1>
-<h3>{{number}}</h3>
+
 <div *ngIf="condition">
     <img [src]="source" alt='image'>
 
@@ -15,11 +14,10 @@
     <li>ali</li>
     <li>imen</li>
 </ul>
-<h2>{{user1}}</h2>
-<h2>{{user2}}</h2>
-<h2>{{user3}}</h2>
+
 <ul *ngFor="let name of namelist">
     <li>
        <h4>{{name}}</h4>
     </li>
 </ul>
+<button type="button" class="btn btn-warning">Warning</button>
